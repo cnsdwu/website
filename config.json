@@ -1,0 +1,59 @@
+{
+  "settings":{
+    "sites":{
+      "src": "local",
+      "default": {
+        "url": "sites.json"
+      },
+      "local": {
+        "data": ""
+      },
+      "other": {
+        "url": "http://dh.wwzc.cc/sites.json"
+      }
+    },
+    "search":{
+      "src": "local",
+      "default": {
+        "url": "search.json"
+      },
+      "local": {
+        "data": ""
+      },
+      "other": {
+        "url": "http://dh.wwzc.cc/search.json"
+      }
+    },
+    "weather":{
+      "show": "true",
+      "location": "user",
+      "ip": {
+        "city": ""
+      },
+      "geog": {
+        "city": ""
+      },
+      "user": {
+        "city": "北京"
+      }
+    },
+    "theme": {
+      "src": "other",
+      "default": {
+        "select": "1"
+      },
+      "local": {
+        "data": ""
+      },
+      "other": {
+        "url": "http://dh.wwzc.cc/sites.json"
+      }
+    },
+    "header":{
+      "show": "false"
+    },
+    "searchBy":{
+      "id": "baidu"
+    }
+  }
+}

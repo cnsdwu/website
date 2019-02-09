@@ -1,0 +1,632 @@
+{
+  "tabs": {
+    "hots": "推荐",
+    "news": "资讯",
+    "shop": "购物",
+    "bbs": "社区",
+    "play": "影音",
+    "live": "生活",
+    "tool": "工具",
+    "it": "IT"
+  },
+  "sprites":{
+    "hots": "images/icon-hots.png",
+    "news": "images/icon-news.png",
+    "shop": "images/icon-shop.png",
+    "bbs": "images/icon-bbs.png",
+    "play": "images/icon-play.png",
+    "live": "images/icon-live.png",
+    "tool": "images/icon-tool.png",
+    "it": "images/icon-it.png"
+  },
+  "sites": {
+    "hots": [{
+      "url": "http://www.zaobao.com",
+      "title": "联合早报",
+      "position": "0 0",
+      "img": ""
+    }, {
+      "url": "http://www.people.com.cn",
+      "title": "人民网",
+      "position": "-20px 0",
+      "img": ""
+    }, {
+      "url": "https://www.jd.com",
+      "title": "京东",
+      "position": "-40px 0",
+      "img": ""
+    }, {
+      "url": "https://taobao.com",
+      "title": "淘宝",
+      "position": "-60px 0",
+      "img": ""
+    }, {
+      "url": "https://www.jianshu.com",
+      "title": "简书",
+      "position": "-80px 0",
+      "img": ""
+    }, {
+      "url": "https://www.zhihu.com",
+      "title": "知乎",
+      "position": "-100px 0",
+      "img": ""
+    }, {
+      "url": "http://www.youku.com",
+      "title": "优酷",
+      "position": "0 -20px",
+      "img": ""
+    }, {
+      "url": "https://v.qq.com",
+      "title": "腾讯视频",
+      "position": "-20px -20px",
+      "img": ""
+    }, {
+      "url": "https://translate.google.cn",
+      "title": "谷歌翻译",
+      "position": "-40px -20px",
+      "img": ""
+    }, {
+      "url": "http://www.kuaidi100.com",
+      "title": "快递100",
+      "position": "-60px -20px",
+      "img": ""
+    }, {
+      "url": "http://www.nicetool.net",
+      "title": "NiceTool",
+      "position": "-80px -20px",
+      "img": ""
+    }, {
+      "url": "https://email2.163.com",
+      "title": "网易邮箱",
+      "position": "-100px -20px",
+      "img": ""
+    }, {
+      "url": "http://www.runoob.com",
+      "title": "菜鸟教程",
+      "position": "0 -40px",
+      "img": ""
+    }],
+    "news": [{
+      "url": "http://www.zaobao.com",
+      "title": "联合早报",
+      "position": "-40px -60px",
+      "img": ""
+    }, {
+      "url": "http://www.ftchinese.com",
+      "title": "FT中文网",
+      "position": "0 0",
+      "img": ""
+    }, {
+      "url": "http://www.guancha.cn",
+      "title": "观察者",
+      "position": "-40px 0",
+      "img": ""
+    }, {
+      "url": "https://pit.ifeng.com",
+      "title": "凤凰智库",
+      "position": "-60px 0",
+      "img": ""
+    }, {
+      "url": "http://www.myzaker.com",
+      "title": "ZAKER",
+      "position": "-20px 0",
+      "img": ""
+    }, {
+      "url": "http://www.people.com.cn",
+      "title": "人民网",
+      "position": "-80px 0",
+      "img": ""
+    }, {
+      "url": "http://www.cankaoxiaoxi.com",
+      "title": "参考消息",
+      "position": "-100px 0",
+      "img": ""
+    }, {
+      "url": "http://www.bbc.com",
+      "title": "BBC",
+      "position": "-20px -20px",
+      "img": ""
+    }, {
+      "url": "https://wallstreetcn.com",
+      "title": "华尔街见闻",
+      "position": "-40px -20px",
+      "img": ""
+    }, {
+      "url": "http://news.qq.com",
+      "title": "腾讯新闻",
+      "position": "-60px -20px",
+      "img": ""
+    }, {
+      "url": "http://news.163.com",
+      "title": "网易新闻",
+      "position": "-80px -20px",
+      "img": ""
+    }, {
+      "url": "http://www.thepaper.cn",
+      "title": "澎湃",
+      "position": "-100px -20px",
+      "img": ""
+    }, {
+      "url": "http://sports.sina.com.cn",
+      "title": "新浪体育",
+      "position": "0 -40px",
+      "img": ""
+    }, {
+      "url": "http://sports.sina.com.cn",
+      "title": "IT之家",
+      "position": "-20px -40px",
+      "img": ""
+    }, {
+      "url": "http://news.sohu.com",
+      "title": "搜狐新闻",
+      "position": "-20px -60px",
+      "img": ""
+    }, {
+      "url": "https://www.guokr.com",
+      "title": "果壳",
+      "position": "0 -60px",
+      "img": ""
+    }, {
+      "url": "http://36kr.com",
+      "title": "36氪",
+      "position": "-60px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.ltaaa.com",
+      "title": "龙腾网",
+      "position": "-80px -40px",
+      "img": ""
+    }, {
+      "url": "https://www.huxiu.com",
+      "title": "虎嗅",
+      "position": "-60px -60px",
+      "img": ""
+    }, {
+      "url": "https://www.toutiao.com",
+      "title": "今日头条",
+      "position": "-40px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.huanqiu.com",
+      "title": "环球时报",
+      "position": "-100px -40px",
+      "img": ""
+    }],
+    "shop": [{
+      "url": "https://www.jd.com",
+      "title": "京东",
+      "position": "0 0",
+      "img": ""
+    }, {
+      "url": "https://taobao.com",
+      "title": "淘宝",
+      "position": "-20px 0",
+      "img": ""
+    }, {
+      "url": "https://www.amazon.cn",
+      "title": "亚马逊",
+      "position": "-40px 0",
+      "img": ""
+    }, {
+      "url": "http://www.dangdang.com",
+      "title": "当当网",
+      "position": "-60px 0",
+      "img": ""
+    }, {
+      "url": "https://www.xiaohongshu.com",
+      "title": "小红书",
+      "position": "-80px 0",
+      "img": ""
+    }, {
+      "url": "https://www.suning.com",
+      "title": "苏宁易购",
+      "position": "-100px 0",
+      "img": ""
+    }, {
+      "url": "http://www.manmanbuy.com",
+      "title": "慢慢买",
+      "position": "0 -20px",
+      "img": ""
+    }, {
+      "url": "https://www.gome.com.cn",
+      "title": "国美",
+      "position": "-20px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.vip.com",
+      "title": "唯品会",
+      "position": "-40px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.mogujie.com/",
+      "title": "蘑菇街",
+      "position": "-60px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.yhd.com",
+      "title": "一号店",
+      "position": "-80px -20px",
+      "img": ""
+    }, {
+      "url": "https://2.taobao.com/",
+      "title": "闲鱼",
+      "position": "-100px -20px",
+      "img": ""
+    }, {
+      "url": "http://www.zhuanzhuan.com",
+      "title": "转转",
+      "position": "0 -40px",
+      "img": ""
+    }, {
+      "url": "http://you.163.com",
+      "title": "网易严选",
+      "position": "-20px -40px",
+      "img": ""
+    }, {
+      "url": "http://jumei.com",
+      "title": "聚美优品",
+      "position": "-40px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.vancl.com",
+      "title": "凡客诚品",
+      "position": "-60px -40px",
+      "img": ""
+    }, {
+      "url": "https://www.etao.com",
+      "title": "一淘",
+      "position": "-80px -40px",
+      "img": ""
+    }, {
+      "url": "https://www.mi.com",
+      "title": "小米商城",
+      "position": "-100px -40px",
+      "img": ""
+    }],
+    "bbs": [{
+      "url": "https://www.v2ex.com",
+      "title": "V2EX",
+      "position": "0 0",
+      "img": ""
+    }, {
+      "url": "https://www.jianshu.com",
+      "title": "简书",
+      "position": "-20px 0",
+      "img": ""
+    }, {
+      "url": "https://www.zhihu.com",
+      "title": "知乎",
+      "position": "-20px -20px",
+      "img": ""
+    }, {
+      "url": "https://tieba.baidu.com",
+      "title": "百度贴吧",
+      "position": "-40px 0",
+      "img": ""
+    }, {
+      "url": "http://bbs.tianya.cn",
+      "title": "天涯社区",
+      "position": "-60px 0",
+      "img": ""
+    }, {
+      "url": "https://www.douban.com",
+      "title": "豆瓣",
+      "position": "-80px 0",
+      "img": ""
+    }, {
+      "url": "http://www.mop.com",
+      "title": "猫扑",
+      "position": "-100px 0",
+      "img": ""
+    }, {
+      "url": "https://weibo.com",
+      "title": "新浪微博",
+      "position": "0 -20px",
+      "img": ""
+    }],
+    "play": [{
+      "url": "http://www.youku.com",
+      "title": "优酷",
+      "position": "0 0 ",
+      "img": ""
+    }, {
+      "url": "https://v.qq.com",
+      "title": "腾讯视频",
+      "position": "-20px 0",
+      "img": ""
+    }, {
+      "url": "http://www.iqiyi.com",
+      "title": "爱奇艺",
+      "position": "-40px 0",
+      "img": ""
+    }, {
+      "url": "https://tv.sohu.com",
+      "title": "搜狐视频",
+      "position": "-60px 0",
+      "img": ""
+    }, {
+      "url": "http://www.le.com",
+      "title": "乐视视频",
+      "position": "-80px 0",
+      "img": ""
+    }, {
+      "url": "https://www.mgtv.com",
+      "title": "芒果TV",
+      "position": "-100px 0",
+      "img": ""
+    }, {
+      "url": "https://www.bilibili.com",
+      "title": "Bilibili",
+      "position": "0 -20px",
+      "img": ""
+    }, {
+      "url": "http://www.acfun.cn",
+      "title": "AcFun",
+      "position": "-20px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.douyu.com",
+      "title": "斗鱼",
+      "position": "-40px -20px",
+      "img": ""
+    }, {
+      "url": "http://www.huya.com",
+      "title": "虎牙",
+      "position": "-60px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.panda.tv",
+      "title": "熊猫直播",
+      "position": "-80px -20px",
+      "img": ""
+    }, {
+      "url": "http://www.longzhu.com",
+      "title": "龙珠直播",
+      "position": "-100px -20px",
+      "img": ""
+    }, {
+      "url": "https://music.163.com",
+      "title": "网易云音乐",
+      "position": "0 -40px",
+      "img": ""
+    }, {
+      "url": "https://y.qq.com",
+      "title": "QQ音乐",
+      "position": "-20px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.kugou.com",
+      "title": "酷狗",
+      "position": "-40px -40px",
+      "img": ""
+    }, {
+      "url": "https://www.xiami.com",
+      "title": "虾米",
+      "position": "-60px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.yinyuetai.com",
+      "title": "音悦Tai",
+      "position": "-80px -40px",
+      "img": ""
+    }, {
+      "url": "https://www.ximalaya.com",
+      "title": "喜马拉雅FM",
+      "position": "-100px -40px",
+      "img": ""
+    }],
+    "live": [{
+      "url": "https://translate.google.cn",
+      "title": "谷歌翻译",
+      "position": "0 0",
+      "img": ""
+    }, {
+      "url": "http://www.12306.cn",
+      "title": "12306",
+      "position": "-20px 0",
+      "img": ""
+    }, {
+      "url": "http://www.meishij.net",
+      "title": "美食杰",
+      "position": "-40px 0",
+      "img": ""
+    }, {
+      "url": "http://www.kuaidi100.com",
+      "title": "快递100",
+      "position": "-60px 0",
+      "img": ""
+    }, {
+      "url": "http://www.cwl.gov.cn",
+      "title": "福彩",
+      "position": "-80px 0",
+      "img": ""
+    }, {
+      "url": "https://www.58.com",
+      "title": "58同城",
+      "position": "-100px 0",
+      "img": ""
+    }, {
+      "url": "http://www.ganji.com",
+      "title": "赶集网",
+      "position": "0 -20px",
+      "img": ""
+    }, {
+      "url": "https://www.ctrip.com",
+      "title": "携程",
+      "position": "-20px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.qunar.com",
+      "title": "去哪儿",
+      "position": "-40px -20px",
+      "img": ""
+    }, {
+      "url": "https://map.baidu.com",
+      "title": "百度地图",
+      "position": "-60px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.51240.com",
+      "title": "便民查询",
+      "position": "-80px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.zhaopin.com",
+      "title": "智联招聘",
+      "position": "-100px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.51job.com",
+      "title": "前程无忧",
+      "position": "0 -40px",
+      "img": ""
+    }, {
+      "url": "https://www.lagou.com",
+      "title": "拉勾",
+      "position": "-20px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.jiakaobaodian.com",
+      "title": "驾考宝典",
+      "position": "-40px -40px",
+      "img": ""
+    }],
+    "tool": [{
+      "url": "http://www.nicetool.net",
+      "title": "NiceTool",
+      "position": "0 0",
+      "img": ""
+    }, {
+      "url": "https://123.w3cschool.cn/webtools",
+      "title": "在线工具库",
+      "position": "-20px 0",
+      "img": ""
+    }, {
+      "url": "https://tool.lu",
+      "title": "在线工具",
+      "position": "-40px 0",
+      "img": ""
+    }, {
+      "url": "http://24mail.chacuo.net",
+      "title": "临时邮箱",
+      "position": "-100px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.miyizi.com",
+      "title": "米艺字",
+      "position": "-60px 0",
+      "img": ""
+    }, {
+      "url": "https://cn.office-converter.com",
+      "title": "文档转换",
+      "position": "-80px 0",
+      "img": ""
+    }, {
+      "url": "https://uzer.me",
+      "title": "云端应用",
+      "position": "-100px 0",
+      "img": ""
+    }, {
+      "url": "http://tool.mkblog.cn",
+      "title": "孟坤工具箱",
+      "position": "0 -20px",
+      "img": ""
+    }, {
+      "url": "https://browserframe.com",
+      "title": "图片加壳",
+      "position": "-20px -20px",
+      "img": ""
+    }, {
+      "url": "http://pan.baidu.com",
+      "title": "百度云",
+      "position": "-40px -20px",
+      "img": ""
+    }, {
+      "url": "http://naotu.baidu.com",
+      "title": "百度脑图",
+      "position": "-60px -20px",
+      "img": ""
+    }, {
+      "url": "https://cli.im",
+      "title": "草料二维码",
+      "position": "-80px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.qichacha.com",
+      "title": "企查查",
+      "position": "-100px -20px",
+      "img": ""
+    }, {
+      "url": "https://www.tianyancha.com",
+      "title": "天眼查",
+      "position": "0 -40px",
+      "img": ""
+    }, {
+      "url": "https://email2.163.com",
+      "title": "网易邮箱",
+      "position": "-20px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.zhuanhuanqi.com/danwei/danwei.html",
+      "title": "单位换算",
+      "position": "-80px -40px",
+      "img": ""
+    }, {
+      "url": "http://www.panduoduo.net",
+      "title": "网盘搜索",
+      "position": "-40px -40px",
+      "img": ""
+    }, {
+      "url": "https://www.cilimao.me",
+      "title": "磁力搜索",
+      "position": "-60px -40px",
+      "img": ""
+    }],
+    "it": [{
+      "url": "http://www.w3school.com.cn",
+      "title": "W3school",
+      "position": "0 0",
+      "img": ""
+    }, {
+      "url": "http://www.runoob.com",
+      "title": "菜鸟教程",
+      "position": "-20px 0",
+      "img": ""
+    }, {
+      "url": "http://www.51zxw.net",
+      "title": "我要自学网",
+      "position": "-40px 0",
+      "img": ""
+    }, {
+      "url": "https://www.liaoxuefeng.com",
+      "title": "廖雪峰教程",
+      "position": "-60px 0",
+      "img": ""
+    }, {
+      "url": "http://1nami.com",
+      "title": "1纳米",
+      "position": "-80px 0",
+      "img": ""
+    }, {
+      "url": "https://www.imooc.com",
+      "title": "慕课网",
+      "position": "-100px 0",
+      "img": ""
+    }, {
+      "url": "http://edu.51cto.com",
+      "title": "51CTO学院",
+      "position": "0 -20px",
+      "img": ""
+    }, {
+      "url": "https://www.codecademy.com",
+      "title": "Codecademy",
+      "position": "-20px -20px",
+      "img": ""
+    }, {
+      "url": "http://www.fenby.com",
+      "title": "Fenby",
+      "position": "-40px -20px",
+      "img": ""
+    }]
+  }
+}
