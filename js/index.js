@@ -1461,13 +1461,14 @@ var global = {};
         $('[data-city="city"]').text(city);
         // 天气信息获取
         $.getJSON('https://dh.wwzc.cc/weather.php', {city: city}, function (rep) {
-            var todayImg0 = rep.data.weather.content.today.img[0];
+			var imgIndex = isDaylight()?1:0;
+            var todayImg0 = 'https://dss1.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons/'+rep.data.weather.content.today.imgs[imgIndex]+'.png';
             var todayCurrenttemp = rep.data.weather.content.currenttemp;
             var todayPm25 = rep.data.weather.content.today.pm25;
             var todayCondition = rep.data.weather.content.today.condition;
             var todayAqi = '优';
 
-            var tomorrowImg0 = rep.data.weather.content.tomorrow.img[0];
+            var tomorrowImg0 = 'https://dss1.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons/'+rep.data.weather.content.tomorrow.imgs[imgIndex]+'.png';
             var tomorrowCurrenttemp = rep.data.weather.content.tomorrow.temp;
             var tomorrowPm25 = rep.data.weather.content.tomorrow.pm25;
             var tomorrowCondition = rep.data.weather.content.tomorrow.condition;
@@ -1517,7 +1518,15 @@ var global = {};
             global.$header.find('.weather').addClass('finish');
         })
     };
-    
+    //夜间返回true，白天返回false，（这里夜间时间设置为23:00 -- 07:00）
+	function isDaylight(){
+		var currdate = new Date();
+		if(currdate.getHours()>=18 || currdate.getHours()<7){
+			return true;
+		}else{
+			return false;
+		}
+	}
     // 天气动画函数
     global.weatherAnimatJquery = {
         tomorrow: $('.weather .tomorrow'),
